@@ -166,17 +166,16 @@ a:hover {
 
         .search_headings {
             text-align: center;
-            margin-left: 11rem;
+            margin-left: 7rem;
         }
     
         .search_descriptions{
             margin-right: 14rem;
-            margin-left: 1rem;
+            margin-left: 0rem;
         }
         
         .computer {
-            margin-left: 0.2rem;
-            padding-right: 8rem;
+            margin-right: 4rem;
         }
 
         footer .links {
