@@ -152,6 +152,11 @@ footer .social a {
     margin: 0 5px;
 }
 
+.icons {
+    width: 56px;
+    height: 56px;
+}
+
 a:hover {
     color: var(--strong-cyan);
 }
