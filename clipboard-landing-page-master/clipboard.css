@@ -168,6 +168,11 @@ a:hover {
             text-align: center;
             margin-left: 11rem;
         }
+    
+        .search_descriptions{
+            margin-right: 14rem;
+            margin-left: 1rem;
+        }
         
         .computer {
             margin-left: 0.2rem;
