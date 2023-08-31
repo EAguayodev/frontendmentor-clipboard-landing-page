@@ -178,7 +178,8 @@ a:hover {
         }
         
         .computer {
-            margin-right: 4rem;
+            position: relative;
+            left: 0;
         }
 
         footer .links {
