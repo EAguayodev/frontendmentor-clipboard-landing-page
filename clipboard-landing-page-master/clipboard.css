@@ -168,6 +168,11 @@ a:hover {
         position: relative;
         left: 4rem;
     }
+    
+    .container h2 {
+        width: 200px;
+        font-size: 24px;
+    }
         
         .flex {
             flex-direction: column;
