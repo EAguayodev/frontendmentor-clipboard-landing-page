@@ -179,7 +179,7 @@ a:hover {
         
         .computer {
             position: relative;
-            left: 0;
+            left: -4rem;
         }
 
         footer .links {
