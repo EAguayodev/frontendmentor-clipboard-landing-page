@@ -173,6 +173,8 @@ a:hover {
         width: 235px;
         font-size: 24px;
         font-weight: 500;
+        position: relative;
+        left: 4rem;
     }
         
         .flex {
