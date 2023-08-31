@@ -166,6 +166,8 @@ a:hover {
         font-size: 28px;
         font-weight: 600;
         text-align: center;
+        position: relative;
+        left: 5rem;
     }
         
         .flex {
