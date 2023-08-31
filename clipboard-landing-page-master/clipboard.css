@@ -164,6 +164,7 @@ a:hover {
     header h1 {
         width: 204px;
         font-size: 28px;
+        font-weight: 600;
         text-align: center;
     }
         
