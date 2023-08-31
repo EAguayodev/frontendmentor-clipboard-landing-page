@@ -260,6 +260,11 @@ a:hover {
         right: 5rem;
     }
 
+    .device-image{
+        width: 271.024px;
+        height: 180.556px;
+    }
+
     footer .links {
         flex-direction: column;
     }
