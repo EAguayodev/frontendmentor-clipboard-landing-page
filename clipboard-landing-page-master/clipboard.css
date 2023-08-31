@@ -3,7 +3,9 @@
 
 * {
     box-sizing: border-box;
-    outline: 1px solid red;
+    margin: 0;
+    padding: 0;
+    outline: 2px solid red;
 }
 
 :root {
@@ -18,8 +20,12 @@
 body {
     background-repeat: no-repeat;
     color: var(--dark-grayish-blue);
-    font-family: 'Bai Jamjuree', sans-serif;
     text-align: center;
+}
+
+.logo{
+    width: 125px;
+    height: 125px;
 }
 
 
@@ -29,8 +35,25 @@ header {
     padding: 80px 0 0;
 }
 
-img {
-    max-width: 100%;
+header h1{
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.75px;
+    width: 730px;
+    text-align: center;
+}
+
+header p {
+    width: 730px;
+    text-align: center;
+    font-family: Bai Jamjuree;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.15px;
 }
 
 p {
@@ -60,9 +83,13 @@ section {
     justify-content: center;
 }
 
-.flex > div {
+/* .flex > div {
     flex: 1;
     padding: 10px;
+} */
+
+.computer {
+    margin-left: -9rem;
 }
 
 .search_headings {
@@ -149,74 +176,105 @@ footer .social a {
     margin: 0 5px;
 }
 
-.icons {
-    width: 20px;
-    height: 20px;
-}
-
 a:hover {
     color: var(--strong-cyan);
 }
 
 
-@media (max-width: 600px) {
-    header h1 {
-        width: 245px;
+@media (max-width: 768px) {
+    header h1{
+        text-align: center;
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.522px;
+        position: relative;
+        left: 3rem;
+        width: 311px;
+    }
+
+    header p{
+        text-align: center;
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.12px;
+        position: relative;
+        left: 3rem;
+        width: 311px;
+    }
+
+    .container h2{
+        text-align: center;
+        font-family: Bai Jamjuree SemiBold;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.457px;
+        width: 311px;
+        position: relative;
+        left: 2.5rem;
+    }
+
+    .container h3{
+        text-align: center;
         font-size: 24px;
         font-weight: 600;
+        width: 311px;
+    }
+
+    .flex {
+        width: 311px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container-small{
+        width: 311px;
+    }
+
+    .search_headings {
+        width: 311px;
         text-align: center;
-        position: relative;
-        left: 4rem;
+        margin-left: 1rem;
     }
-    
-    .container h2 {
-        width: 235px;
-        font-size: 24px;
-        font-weight: 700;
-        position: relative;
-        left: 4rem;
+
+    .search_descriptions{
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.12px;
+        text-align: center;
+        width: 311px;
     }
         
-        .flex {
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
+    .computer {
+        width: 312px;
+        position: relative;
+        right: 5rem;
+    }
 
-        .search_headings {
-            text-align: center;
-            margin-left: 4rem;
-            font-size: 24px;
-            width: 230px;
-        }
-    
-        .search_descriptions{
-            text-align: center;
-            margin-left: 4rem;
-            font-size: 14px;
-            width: 225px;
-        }
-        
-        .computer {
-            position: relative;
-            left: -8.5rem;
-        }
+    footer .links {
+        flex-direction: column;
+    }
 
-        footer .links {
-            flex-direction: column;
-        }
+    footer .links li {
+        padding: 10px;
+        margin-right: 0;
+    }
 
-        footer .links li {
-            padding: 10px;
-            margin-right: 0;
-        }
-
-        .btn {
-            align-items: center;
-            display: block;
-            margin-left: 10%;
-            width: 80%;
-        }
-
-    
+    .btn {
+        align-items: center;
+        display: block;
+        font-size: 18px;
+        margin-left: 10%;
+        width: 311px;
+        height: 56px;
+    }
 }
