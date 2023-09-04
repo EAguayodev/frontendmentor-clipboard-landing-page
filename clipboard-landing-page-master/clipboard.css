@@ -3,8 +3,6 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     outline: 2px solid red;
 }
 
@@ -41,7 +39,6 @@ header h1{
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.75px;
-    width: 730px;
     text-align: center;
 }
 
@@ -54,10 +51,13 @@ header p {
     font-weight: 400;
     line-height: 30px; /* 150% */
     letter-spacing: 0.15px;
+    position: relative;
+    left: -11rem;
 }
 
 p {
     color: hsl(201, 11%, 66%);
+    line-height: 1.5;
 }
 
 .container {
@@ -67,10 +67,6 @@ p {
     width: 1200px;
 }
 
-.container-small {
-    width: 700px;
-}
-
 section {
     padding: 30px 0;
 }
@@ -78,27 +74,58 @@ section {
 .flex {
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
-
-/* .flex > div {
-    flex: 1;
-    padding: 10px;
-} */
 
 .computer {
     margin-left: -9rem;
+    width: 752px;
+    height: 572px;
 }
 
 .search_headings {
-    margin-right: 21rem;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.391px;
+    width: 350px;
 }
 
 .search_descriptions {
-    align-items: flex-end;
-    margin-right: 9rem;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.12px;
+    width: 350px;
 }
+
+.container-small h2{
+    text-align: center;
+    font-family: Bai Jamjuree SemiBold;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.587px;
+    position: relative;
+    left: 14rem;
+    width: 730px;
+}
+
+/* .container-small p{
+    text-align: center;
+    font-family: Bai Jamjuree;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    position: relative;
+    left: 14rem;
+    width: 730px;
+} */
 
 .btn {
     background-color: var(--strong-cyan);
@@ -190,7 +217,7 @@ a:hover {
         line-height: normal;
         letter-spacing: -0.522px;
         position: relative;
-        left: 3rem;
+        left: 0rem;
         width: 311px;
     }
 
@@ -203,7 +230,7 @@ a:hover {
         line-height: 26px;
         letter-spacing: 0.12px;
         position: relative;
-        left: 3rem;
+        left: 0rem;
         width: 311px;
     }
 
@@ -217,7 +244,7 @@ a:hover {
         letter-spacing: -0.457px;
         width: 311px;
         position: relative;
-        left: 2.5rem;
+        left: 0;
     }
 
     .container h3{
@@ -225,6 +252,13 @@ a:hover {
         font-size: 24px;
         font-weight: 600;
         width: 311px;
+        position: relative;
+        left: 2rem;
+    }
+
+    .container p{
+        position: relative;
+        left: 2rem;
     }
 
     .flex {
@@ -242,7 +276,8 @@ a:hover {
     .search_headings {
         width: 311px;
         text-align: center;
-        margin-left: 1rem;
+        position: relative;
+        left: 2rem;
     }
 
     .search_descriptions{
@@ -251,17 +286,25 @@ a:hover {
         letter-spacing: 0.12px;
         text-align: center;
         width: 311px;
+        position: relative;
+        left: 2rem;
     }
         
     .computer {
         width: 312px;
+        height: 298px;
         position: relative;
-        right: 5rem;
+        left: 6.5rem;
     }
 
     .device-image{
         width: 271.024px;
         height: 180.556px;
+    }
+
+    .icon{
+        position: relative;
+        left: 2rem;
     }
 
     footer .links {
@@ -277,7 +320,6 @@ a:hover {
         align-items: center;
         display: block;
         font-size: 18px;
-        margin-left: 10%;
         width: 311px;
         height: 56px;
     }
