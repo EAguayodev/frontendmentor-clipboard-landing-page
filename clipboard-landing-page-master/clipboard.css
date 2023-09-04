@@ -302,6 +302,11 @@ a:hover {
         height: 180.556px;
     }
 
+    .company__logos{
+        padding: 20px;
+    }
+
+
     .icon{
         position: relative;
         left: 2rem;
