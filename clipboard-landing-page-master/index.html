@@ -5,14 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Clipboard landing page</title>
-  <link rel="stylesheet" href="clipboard.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- header structure -->
+    <!-- header section -->
  <header>
-  <!-- header container -->
+    <!-- header container -->
         <div class="container container-small">
-            <img src="images/logo.svg" alt="clipboard-logo">
+            <!-- header logo -->
+            <img class="logo" src="images/logo.svg" alt="clipboard-logo">
+            <!--/ header logo -->
             <h1>
                 A history of everything you copy
             </h1>
@@ -20,7 +22,7 @@
                 Clipboard allows you to track and organize everything you 
                 copy. Instantly access your clipboard on all your devices.
             </p>
-<!-- button boxes -->
+            <!-- button box -->
             <div>
                 <button class="btn btn-primary">
                     Download for iOS
@@ -33,9 +35,9 @@
         </div>
         <!--/ header container -->
     </header>
-<!--/ header structure -->
-<!-- tracker section -->
-    <section class="container">
+<!--/ header section -->
+<!-- container snippets tracker -->
+<section class="container">
     <div class="container container-small">
         <h2>
             Keep track of your snippets
@@ -73,9 +75,9 @@
             </p>
         </div>
     </div>
-    </section>
-<!--/ tracker section -->
-<!-- clipboard description section -->
+</section>
+
+<!-- clipboard access -->
     <section class="container container-small">
         <h2>
             Access Clipboard anywhere
@@ -86,70 +88,52 @@
         </p>
         <img class="device-image" src="images/image-devices.png" alt="device-icon">
     </section>
-<!--/ clipboard description section -->
-<!-- workflow section -->
+<!--/ clipboard access -->
+
     <section class="container">
+        <!-- workflow section -->
             <div>
-                    <h3>
-                    Supercharge your workflow
-                    </h3>
-                    <p>
-                    We’ve got the tools to boost your productivity.
-                    </p>
-                </div>  
+                <h3>Supercharge your workflow</h3>
+                <p>We’ve got the tools to boost your productivity.</p>
+            </div>  
                 <div class="flex">
                     <div class="snippet-right">
-                        <img src="images/icon-blacklist.svg" alt="">
+                        <img class="icon icon-blacklist" src="images/icon-blacklist.svg" alt="">
                         <h3>Create blacklists</h3>
-                      
                         <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
                     </div>
                     <div class="snippet-right">
-                        <img src="images/icon-text.svg" alt="text-icon">
+                        <img class="icon icon-text" src="images/icon-text.svg" alt="text-icon">
                         <h3>Plain text snippets</h3>
-                      
                         <p>Remove unwanted formatting from copied text for a consistent look.</p>
                     </div>
                     <div class="snippet-right">
-                        <img src="images/icon-preview.svg" alt="preview-icon">
+                        <img class="icon icon-preview" src="images/icon-preview.svg" alt="preview-icon">
                         <h3>Sneak preview</h3>
-                          
                         <p>Quick preview of all snippets on your Clipboard for easy access.</p>
                     </div>
                 </div>
-    </section>
-       <!--/ workflow section-->
-<!-- company logo sponsors -->
+        <!--/ workflow section  -->
+    </section> 
     <section class="container flex">
-      <!-- Google -->
                     <div>
                         <img src="images/logo-google.png" alt="google">
                     </div>
-                    <!--/ Google -->
-                    <!-- IBM -->
                     <div>
                         <img src="images/logo-ibm.png" alt="ibm">
                     </div>
-                    <!--/ IBM -->
-                    <!-- Microsoft -->
                     <div>
                         <img src="images/logo-microsoft.png" alt="microsoft">
                     </div>
-                    <!--/ Microsoft -->
-                    <!-- HP -->
                     <div>
                         <img src="images/logo-hp.png" alt="hp">
                     </div>
-                    <!--/ HP -->
-                    <!-- Vector -->
                     <div>
                         <img src="images/logo-vector-graphics.png" alt="vector graphics">
                     </div>
-                    <!--/ Vector -->
-    </section>
-    
-<!--/ company logo sponsors -->
-<!-- downloadable options -->
+    </section> 
+
+    <!-- button selections section -->
     <section class="container container-small">
         <h2>
             Clipboard for iOS and Mac OS
@@ -165,17 +149,12 @@
             Download for Mac
         </button>
     </section>
-    <!--/ downloadable options -->
-    <!-- footer -->
+    <!--/ button selections section  -->
     <footer>
-      <!-- footer container -->
         <div class="container flex">
-          <!-- footer logo box -->
             <div>
                 <img src="images/logo.svg" alt="logo footer">
             </div>
-          <!--/ footer logo box -->
-          <!-- links -->
                 <ul class="links">
                     <li><a href="#">FAQ</a></li>
                     <li><a href="#">Contact Us</a></li>
@@ -183,17 +162,13 @@
                     <li><a href="#">Press Kit</a></li>
                     <li><a href="#">Install Guide</a></li>
                 </ul>
-           <!--/ links -->
-          <!-- social img & links -->
+
                 <ul class="social">
-                    <li><a href="#"><img class="icons icon__icon-facebook" src="images/icon-facebook.svg" /></a></li>
-                    <li><a href="#"><img class="icons icon__icon-twitter" src="images/icon-twitter.svg" /></a></li>
-                    <li><a href="#"><img class="icons icon__icon-instagram" src="images/icon-instagram.svg" /></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                 </ul>
-          <!--/ social img & links -->
         </div>
-        <!--/ footer container -->
     </footer>
-    <!--/ footer -->
 </body>
 </html>
