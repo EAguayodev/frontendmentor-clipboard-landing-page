@@ -113,6 +113,14 @@ section {
     width: 730px;
 }
 
+.snippet__description{
+    text-align: center;
+    width: 603px;
+    position: relative;
+    left: 20rem;
+    line-height: 1.5;
+}
+
 /* .container-small p{
     text-align: center;
     font-family: Bai Jamjuree;
