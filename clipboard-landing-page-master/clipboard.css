@@ -121,6 +121,13 @@ section {
     line-height: 1.5;
 }
 
+.clip__description{
+    text-align: center;
+    width: 567px;
+    position: relative;
+    left: 20rem;
+}
+
 /* .container-small p{
     text-align: center;
     font-family: Bai Jamjuree;
