@@ -128,6 +128,13 @@ section {
     left: 20rem;
 }
 
+.clio__description{
+    width: 545px;
+    text-align: center;
+    position: relative;
+    left: 21rem;
+}
+
 /* .container-small p{
     text-align: center;
     font-family: Bai Jamjuree;
